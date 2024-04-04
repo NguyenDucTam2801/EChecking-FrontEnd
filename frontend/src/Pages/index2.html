@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" contnet="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - ClassList</title>   
+    <link rel="stylesheet" href="./dist/output.css">
+    <style>
+      /* Additional styles to fit the image within the page dimensions */
+      body {
+          background-image: url('./dist/img/BGROUND.jpg');
+          background-size: 1440px 800px; /* Set the size of the background image */
+          background-position: bottom left; /* Position the background image at bottom-left corner */
+          background-repeat: no-repeat; 
+      }
+      .dashboard-container {
+          margin-top: 50px; /* Adjust the margin-top to move the boxes down */
+          border: 2px solid grey; /* Add border to the outer container */
+          border-radius: 10px; /* Optional: Add border radius */
+      }
+      .rounded-table {
+          border-radius: 10px; /* Adjust the border-radius to round the corners of tables */
+      }
+  </style>
+ </head>   
+ <body class="bg-gray-100 relative">
+   <!-- Header -->
+   <div class="bg-white py-10 text-black text-center absolute top-0 left-0 w-full h-35 "></div>
+   <!-- Content -->
+   <div class="relative z-10 flex justify-center items-center h-screen">
+       <div class="relative w-1444 h-1024 bg-white shadow-lg p-8 mr-56 mt-10 dashboard-container">
+           <!-- Content for the dashboard goes here -->
+           <img src="./dist/img/Classlist.jpg" alt="Setting" class="absolute top-8 left-24 w-32 h-32">
+           <h1 class="text-2xl font-semibold  mt-32 ml-20 mr-20 text-gray-700 "> Class List</h1>
+           <!-- Placeholder for attendance table -->
+          
+           <!-- Placeholder for attendance summary or graphs -->
+       </div>
+                  <!-- Second box  -->
+       <div class="relative w-1440 h-1024 bg-white shadow-lg p-8 mt-10 dashboard-container">
+         <!-- Content for the dashboard goes here -->
+         <img src="./dist/img/Setting icon.jpg" alt="Setting" class="absolute top-12 left-28 w-24 h-24">
+         <h1 class="text-2xl font-semibold  mt-32 ml-24 mr-24 text-gray-700"> Setting</h1>
+         <!-- Placeholder for attendance table -->
+        
+         <!-- Placeholder for attendance summary or graphs -->
+     </div>
+   </div>
+   <div class="absolute top-24 left-5 text-5xl font-bold">Dashboard</div> <!-- Add dashboard text -->
+   </div>
+</body>
+</html>
