@@ -11,7 +11,7 @@ export const LoginStudent = () => {
   };
 
   return (
-    <div className="w-screen mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center bg-bg1 bg-no-repeat bg-cover bg-x items-center">
+    <div className="w-screen mt-[-96px] font-sans w-full h-screen mx-auto flex flex-col justify-center bg-bg1 bg-no-repeat bg-cover bg-x items-center">
       <div className="sm:mx-auto">
         <img className="mx-auto h-25 w-auto" src={title} alt="E-Checking" />
       </div>
