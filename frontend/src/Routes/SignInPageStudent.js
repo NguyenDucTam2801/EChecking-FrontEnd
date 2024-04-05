@@ -1,11 +1,11 @@
 import React from "react";
-import { LoginStudent } from "../Components/LoginStudent";
-import Header from "../Components/Header";
+import { LoginStudent } from "../Pages/LoginStudent";
+import NavBar from "../Components/NavBar";
 
 export const SignInPageStudent = () => {
   return (
     <div >
-      <Header/>
+      <NavBar/>
       <LoginStudent/>
     </div>
   );

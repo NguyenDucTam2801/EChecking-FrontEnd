@@ -1,5 +1,5 @@
 import React from "react";
-import title from "../image/title.png";
+import title from "../Assets/Image/title.png";
 import { useNavigate } from 'react-router-dom';
 
 export const LoginLecturer = () => {

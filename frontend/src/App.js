@@ -1,7 +1,7 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import { SignInPageStudent } from "./Pages/SignInPageStudent";
-import { SignInPageLecturer } from "./Pages/SignInPageLecturer";
+import { SignInPageStudent } from "./Routes/SignInPageStudent";
+import { SignInPageLecturer } from "./Routes/SignInPageLecturer";
 
 function App() {
   return (

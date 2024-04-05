@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../Components/Header";
-import { LoginLecturer } from "../Components/LoginLecturer";
+import NavBar from "../Components/NavBar";
+import { LoginLecturer } from "../Pages/LoginLecturer";
 
 export const SignInPageLecturer = () => {
   return (
     <div>
-      <Header/>
+      <NavBar/>
       <LoginLecturer />
     </div>
   );
